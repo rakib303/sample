@@ -1,0 +1,81 @@
+@media (max-width: 700px){
+    .btnn{
+      visibility: visible;
+       
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+   html{
+    font-size:3%;
+    }
+     .btnn{
+      visibility: visible;
+       
+    }
+    .main-nav {
+      display: none;
+    }
+  .services-section .row2{
+    grid-template-columns:50% 50%;
+}
+  .services-section .box{
+    padding-bottom:8rem;
+}
+.team-section .row2{
+    grid-template-columns:50% 50%;
+}
+.skill-section .row2{
+    grid-template-columns:50% 50%;
+}
+header .logo{
+    margin-left:7rem;
+}
+header .main-nav{
+    margin-right:1.3rem;
+}
+header .btn{
+    margin-bottom:5rem;
+}
+
+     .portfolio-section .row3{
+    grid-template-columns:100%;
+   }
+
+}
+@media only screen and (max-width: 600px){
+   .testimonial-section .row3{
+    grid-template-columns:100%;
+   }
+   .testimonial-section .client-photo {
+    width: 9rem;
+    height: 9rem;
+    display:block;
+    text-align:center;
+    margin:auto;
+ }
+  .testimonial-section .client-photo img{
+    text-align:center;
+    display:block;
+  }
+  .testimonial-section  .box h3, span{
+    text-align:center;
+    display:block;
+    font-size:2.2rem;
+  }
+  .testimonial-section  .box span{
+    text-align:center;
+    display:block;
+    font-size:1.5rem;
+  }
+  .testimonial-section .client-review p {
+    font-size:2rem;
+}
+}
+@media only screen and (max-width:730px){
+    header .logo{
+        display:none;
+    }
+}
